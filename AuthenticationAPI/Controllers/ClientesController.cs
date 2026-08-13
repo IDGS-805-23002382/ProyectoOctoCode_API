@@ -1,7 +1,8 @@
+using AuthenticationAPI.Services;
+using AuthenticationAPI.interfaces;
 using AuthenticationAPI.Data;
 using AuthenticationAPI.DTO;
 using AuthenticationAPI.Models;
-using AuthenticationAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -93,6 +94,9 @@ namespace AuthenticationAPI.Controllers
             return CreatedAtAction(nameof(GetAll), MapDto(cliente));
         }
 
+
+
+
         // Solo afecta el estatus de negocio del cliente (si sigue activo como cliente).
         // Para bloquear su acceso de login usa /api/users/{id}/status.
         [Authorize(Roles = "Administrador,admin")]
@@ -117,7 +121,6 @@ namespace AuthenticationAPI.Controllers
             if (cliente == null) return NotFound();
             return Ok(MapDto(cliente));
         }
-
         [Authorize(Roles = "cliente")]
         [HttpPut("mi-perfil")]
         public async Task<IActionResult> ActualizarPerfil(ActualizarPerfilClienteDto dto)
@@ -125,9 +128,16 @@ namespace AuthenticationAPI.Controllers
             var cliente = await ObtenerClienteActualAsync();
             if (cliente == null) return NotFound();
 
+            // Actualizamos todas las propiedades correspondientes
+            cliente.RazonSocial = dto.RazonSocial;
+            cliente.RFC = dto.RFC;                
             cliente.Telefono = dto.Telefono;
             cliente.Direccion = dto.Direccion;
-            if (cliente.Usuario != null) cliente.Usuario.NombreCompleto = dto.NombreCompleto;
+
+            if (cliente.Usuario != null)
+            {
+                cliente.Usuario.NombreCompleto = dto.NombreCompleto;
+            }
 
             await _db.SaveChangesAsync();
             return NoContent();
@@ -187,7 +197,14 @@ namespace AuthenticationAPI.Controllers
 
         private async Task<Cliente?> ObtenerClienteActualAsync()
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? User.FindFirstValue("sub");
+            // Buscamos en todas las posibles variantes de claims que usan los JWT
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)
+                      ?? User.FindFirstValue("sub")
+                      ?? User.FindFirstValue("id")
+                      ?? User.FindFirstValue("uid");
+
+            if (string.IsNullOrEmpty(userId)) return null;
+
             return await _db.Clientes.Include(c => c.Usuario).FirstOrDefaultAsync(c => c.UserId == userId);
         }
 

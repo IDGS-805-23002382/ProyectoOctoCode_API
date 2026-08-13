@@ -2537,6 +2537,14 @@
             "minLength": 1,
             "type": "string"
           },
+          "razonSocial": {
+            "type": "string",
+            "nullable": true
+          },
+          "rfc": {
+            "type": "string",
+            "nullable": true
+          },
           "telefono": {
             "type": "string",
             "nullable": true

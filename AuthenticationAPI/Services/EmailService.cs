@@ -1,62 +1,38 @@
-﻿using System.Net;
-using System.Net.Mail;
+﻿using AuthenticationAPI.interfaces;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using SendGrid;
+using SendGrid.Helpers.Mail;
+
 
 namespace AuthenticationAPI.Services
 {
-    public interface IEmailService
-    {
-        Task SendEmailAsync(string email, string subject, string message);
-    }
-
     public class EmailService : IEmailService
     {
-        private readonly IConfiguration _config;
-        private readonly ILogger<EmailService> _logger;
+        private readonly IConfiguration _configuration;
 
-        public EmailService(IConfiguration config, ILogger<EmailService> logger)
+        public EmailService(IConfiguration configuration)
         {
-            _config = config;
-            _logger = logger;
+            _configuration = configuration;
         }
 
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            try
+            var apiKey = _configuration["EmailSettings:ApiKey"]; // Tu API Key de SendGrid
+            var senderEmail = _configuration["EmailSettings:SenderEmail"];
+            var senderName = _configuration["EmailSettings:SenderName"];
+
+            var client = new SendGridClient(apiKey);
+            var from = new EmailAddress(senderEmail, senderName);
+            var to = new EmailAddress(toEmail);
+            var htmlContent = message;
+
+            var msg = MailHelper.CreateSingleEmail(from, to, subject, "", htmlContent);
+
+            var response = await client.SendEmailAsync(msg);
+
+            if (!response.IsSuccessStatusCode)
             {
-                var server = _config["EmailSettings:Server"];
-                var port = int.Parse(_config["EmailSettings:Port"] ?? "587");
-                var senderName = _config["EmailSettings:SenderName"];
-                var senderEmail = _config["EmailSettings:SenderEmail"];
-                var password = _config["EmailSettings:Password"];
-
-                if (string.IsNullOrEmpty(server) || string.IsNullOrEmpty(senderEmail) || string.IsNullOrEmpty(password))
-                {
-                    _logger.LogWarning("La configuración de correo está incompleta. No se pudo enviar el email a {Email}", toEmail);
-                    return;
-                }
-
-                using var client = new SmtpClient(server, port)
-                {
-                    Credentials = new NetworkCredential(senderEmail, password),
-                    EnableSsl = true
-                };
-
-                using var mailMessage = new MailMessage
-                {
-                    From = new MailAddress(senderEmail, senderName),
-                    Subject = subject,
-                    Body = message,
-                    IsBodyHtml = true
-                };
-                mailMessage.To.Add(toEmail);
-
-                await client.SendMailAsync(mailMessage);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al enviar el correo electrónico a {Email}", toEmail);
+                throw new Exception($"Error al enviar correo por API HTTP: {response.StatusCode}");
             }
         }
     }

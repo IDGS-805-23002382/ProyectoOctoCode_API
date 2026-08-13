@@ -12,6 +12,7 @@ using System.Security.Claims;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("https://0.0.0.0:7227", "http://0.0.0.0:80");
 
 // Add services to the container.
 // Configuración para usar una bd SQLServer
@@ -201,7 +202,6 @@ using (var scope = app.Services.CreateScope())
         var logger = services.GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "Ocurrió un error al sembrar los roles y los usuarios iniciales.");
     }
-} // <--- Cierra el using scope del seeder
-
+}
 
 app.Run();

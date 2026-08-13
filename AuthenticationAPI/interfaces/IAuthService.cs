@@ -1,4 +1,5 @@
-﻿using AuthenticationAPI.DTO;
+﻿using AuthenticationAPI.interfaces;
+using AuthenticationAPI.DTO;
 
 namespace AuthenticationAPI.interfaces
 {

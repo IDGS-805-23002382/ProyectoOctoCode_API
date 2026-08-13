@@ -1,15 +1,16 @@
 using AuthenticationAPI.Data;
 using AuthenticationAPI.DTO;
+using AuthenticationAPI.DTO;
 using AuthenticationAPI.Enums;
 using AuthenticationAPI.interfaces;
 using AuthenticationAPI.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
 using System.Net;
 using System.Net.Mail;
-using AuthenticationAPI.DTO;
+using System.Security.Claims;
 
 namespace AuthenticationAPI.Controllers
 {
@@ -50,8 +51,8 @@ namespace AuthenticationAPI.Controllers
                 detalle = "No fue posible calcular un estimado automático en este momento; se ha generado un cálculo preliminar.";
             }
 
-            // 👈 AQUÍ USAMOS EL PUERTO 7227 (QUE ES DONDE CORRE TU API PRINCIPAL)
-            string baseUrl = "https://192.168.X.X:7227/api/cotizaciones";
+            // USAMOS EL PUERTO 7227 (QUE ES DONDE CORRE TU API PRINCIPAL)
+            string baseUrl = "https://192.168.100.96:7227/api/cotizaciones";
             string urlConfirmacion = $"{baseUrl}/confirmar?correo={Uri.EscapeDataString(dto.Correo)}&nombre={Uri.EscapeDataString(dto.Nombre)}&empresa={Uri.EscapeDataString(dto.Empresa)}";
 
             var bodyHtml = $@"
@@ -106,30 +107,75 @@ namespace AuthenticationAPI.Controllers
             return Ok(new { MontoEstimado = monto, Detalle = detalle });
         }
 
-        // Endpoint para recibir la respuesta cuando el cliente hace clic en el enlace
+
+
         [HttpGet("confirmar")]
         [AllowAnonymous]
-        public async Task<IActionResult> Confirmar([FromQuery] string correo, [FromQuery] string nombre, [FromQuery] string empresa)
+        public async Task<IActionResult> Confirmar(
+        [FromQuery] string correo,
+        [FromQuery] string nombre,
+        [FromQuery] string empresa,
+        [FromServices] UserManager<ApplicationUser> userManager)
         {
             try
             {
-                // 1. LÓGICA DE ALTA EN TU BASE DE DATOS
-                // var nuevoUsuario = new Usuario { Email = correo, Nombre = nombre, Empresa = empresa, Activo = true };
-                // _context.Usuarios.Add(nuevoUsuario);
-                // await _context.SaveChangesAsync();
+                // 1. Verificar si el usuario ya existe en la base de datos
+                var user = await userManager.FindByEmailAsync(correo);
+
+                if (user == null)
+                {
+                    // 2. Si no existe, lo creamos automáticamente
+                    user = new ApplicationUser
+                    {
+                        UserName = correo,
+                        Email = correo,
+                        EmailConfirmed = true,
+                        NombreCompleto = nombre
+                    };
+
+                    string passwordTemporal = "Cliente123*";
+                    var resultado = await userManager.CreateAsync(user, passwordTemporal);
+
+                    if (!resultado.Succeeded)
+                    {
+                        return Content("<h2>Error</h2><p>No se pudo registrar la cuenta en el sistema.</p>", "text/html; charset=utf-8");
+                    }
+
+                    // Le asignamos el rol de cliente
+                    await userManager.AddToRoleAsync(user, "cliente");
+                }
+
+                // 3. ASEGURAR EL REGISTRO EN LA TABLA CLIENTES 
+                // (Se ejecuta tanto si el usuario se acaba de crear como si ya existía previamente)
+                var clienteExistente = await _db.Clientes.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (clienteExistente == null)
+                {
+                    var nuevoCliente = new Cliente
+                    {
+                        UserId = user.Id, // Vincula el ID de AspNetUsers
+                        RazonSocial = !string.IsNullOrEmpty(empresa) ? empresa : "Sin Empresa",
+                        RFC = string.Empty,
+                        Telefono = string.Empty,
+                        Direccion = string.Empty,
+                        Activo = true
+                    };
+
+                    _db.Clientes.Add(nuevoCliente);
+                    await _db.SaveChangesAsync();
+                }
 
                 return Content(@"
             <html>        
                 <body style='font-family: Arial; text-align: center; padding: 50px;'>            
                     <h2 style='color: #28a745;'>¡Felicidades!</h2>            
-                    <p>Tu cuenta ha sido creada y activada correctamente para <b>" + empresa + @"</b>.</p>            
+                    <p>Tu cuenta ha sido activada y vinculada correctamente para <b>" + empresa + @"</b>.</p>            
                     <p>Ya puedes iniciar sesión en nuestra plataforma.</p>        
                 </body>    
-            </html>", "html");
+            </html>", "text/html; charset=utf-8");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return Content("<h2>Error</h2><p>Hubo un problema al activar tu cuenta. Intenta nuevamente o contacta a soporte.</p>", "html");
+                return Content("<h2>Error</h2><p>Hubo un problema al activar tu cuenta: " + ex.Message + "</p>", "text/html; charset=utf-8");
             }
         }
 
