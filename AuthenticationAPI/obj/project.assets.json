@@ -5137,23 +5137,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\saulv\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\AuthenticationAPI.csproj",
+      "projectUniqueName": "C:\\Users\\saulv\\Documents\\9no\\proyecto\\ProyectoOctoCode_API\\AuthenticationAPI\\AuthenticationAPI.csproj",
       "projectName": "AuthenticationAPI",
-      "projectPath": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\AuthenticationAPI.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\obj\\",
+      "projectPath": "C:\\Users\\saulv\\Documents\\9no\\proyecto\\ProyectoOctoCode_API\\AuthenticationAPI\\AuthenticationAPI.csproj",
+      "packagesPath": "C:\\Users\\saulv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\saulv\\Documents\\9no\\proyecto\\ProyectoOctoCode_API\\AuthenticationAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\saulv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5234,6 +5234,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.18, 9.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
