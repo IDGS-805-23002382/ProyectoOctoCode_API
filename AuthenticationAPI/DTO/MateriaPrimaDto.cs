@@ -34,8 +34,7 @@ namespace AuthenticationAPI.DTO
         [Range(0, double.MaxValue)]
         public decimal StockMinimo { get; set; }
 
-        [Required]
-        public int ProveedorId { get; set; }
+        public int? ProveedorId { get; set; }
     }
 
     // Edición de los datos de catálogo de un insumo ya existente. Tampoco permite tocar

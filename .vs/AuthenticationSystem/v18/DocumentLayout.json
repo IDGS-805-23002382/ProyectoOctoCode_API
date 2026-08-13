@@ -1,70 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UTL\\WEB\\Acpan-Backend-main\\",
+  "WorkspaceRootPath": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\dto\\cotizaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\cotizaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\dto\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\dto\\ventasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\ventasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\dto\\materiaprimadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\dto\\materiaprimadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\materiaprimadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\migrations\\20260802150941_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\authenticationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\authenticationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\dto\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\dto\\ventasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\ventasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\migrations\\20260802150941_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\migrations\\20260802150941_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\utl\\web\\acpan-backend-main\\authenticationapi\\migrations\\20260803221516_modificarmateriaprima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\migrations\\20260803221516_modificarmateriaprima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\migrations\\20260803221516_modificarmateriaprima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\users\\yair_\\desktop\\acpan\\proyectooctocode_api\\authenticationapi\\migrations\\20260810185605_agregarstockminimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\migrations\\20260810185605_agregarstockminimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,40 +90,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AuthenticationAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\appsettings.json",
+              "RelativeToolTip": "AuthenticationAPI\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-05T23:33:41.186Z",
+              "WhenOpened": "2026-08-13T15:34:23.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Models\\Compra.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\Compra.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Models\\Compra.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Models\\Compra.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CotizacionDto.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\CotizacionDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\CotizacionDto.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\CotizacionDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\CotizacionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T23:18:24.948Z"
+              "WhenOpened": "2026-08-13T06:19:52.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CotizacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\CotizacionesController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\CotizacionesController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\CotizacionesController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\CotizacionesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:02:29.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T19:27:26.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Program.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Program.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAKwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T15:13:01.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MateriaPrimaDto.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA6wDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T22:08:49.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwD0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T23:06:17.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAmwMUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T03:15:38.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T19:16:39.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260810185605_AgregarStockMinimo.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260810185605_AgregarStockMinimo.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Migrations\\20260810185605_AgregarStockMinimo.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260810185605_AgregarStockMinimo.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Migrations\\20260810185605_AgregarStockMinimo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T18:56:06.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Models\\Venta.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\Venta.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Models\\Venta.cs",
               "RelativeToolTip": "AuthenticationAPI\\Models\\Venta.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,11 +234,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Models\\Compra.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Models\\Compra.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Models\\Compra.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Models\\Compra.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T23:18:24.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\AuthenticationAPI.csproj",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\AuthenticationAPI.csproj",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\AuthenticationAPI.csproj",
+              "RelativeToolTip": "AuthenticationAPI\\AuthenticationAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-10T18:54:20.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "VentasDTO.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\VentasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\VentasDTO.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\VentasDTO.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\VentasDTO.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\VentasDTO.cs",
               "RelativeToolTip": "AuthenticationAPI\\DTO\\VentasDTO.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAIwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,72 +270,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Program.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Program.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAkwFoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:13:01.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\appsettings.Development.json",
-              "RelativeToolTip": "AuthenticationAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-05T23:33:29.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Controllers\\VentasController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwEAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T23:06:17.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\appsettings.json",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\appsettings.json",
-              "RelativeToolTip": "AuthenticationAPI\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-02T15:07:04.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "CompraDto.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\CompraDto.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\CompraDto.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\CompraDto.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\CompraDto.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\DTO\\CompraDto.cs",
               "RelativeToolTip": "AuthenticationAPI\\DTO\\CompraDto.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA/wDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-05T23:18:06.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "AuthenticationAPI\\Controllers\\ProductosController.cs",
               "ViewState": "AgIAAOwAAAAAAAAAAAAYwPYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,11 +294,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ComprasController.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ComprasController.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\ComprasController.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Controllers\\ComprasController.cs",
               "RelativeToolTip": "AuthenticationAPI\\Controllers\\ComprasController.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAIwJwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Services\\EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\EmailService.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Services\\EmailService.cs",
               "RelativeToolTip": "AuthenticationAPI\\Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,11 +318,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "20260803221516_ModificarMateriaPrima.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
               "RelativeToolTip": "AuthenticationAPI\\Migrations\\20260803221516_ModificarMateriaPrima.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,35 +330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MateriasPrimasController.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\MateriasPrimasController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\MateriasPrimasController.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Controllers\\MateriasPrimasController.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Controllers\\MateriasPrimasController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEQAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T22:11:24.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MateriaPrimaDto.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
-              "RelativeToolTip": "AuthenticationAPI\\DTO\\MateriaPrimaDto.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwDkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T22:08:49.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "20260802150941_Initial.cs",
-              "DocumentMoniker": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
-              "ToolTip": "C:\\UTL\\WEB\\Acpan-Backend-main\\AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
+              "ToolTip": "C:\\Users\\yair_\\Desktop\\ACPAN\\ProyectoOctoCode_API\\AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
               "RelativeToolTip": "AuthenticationAPI\\Migrations\\20260802150941_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

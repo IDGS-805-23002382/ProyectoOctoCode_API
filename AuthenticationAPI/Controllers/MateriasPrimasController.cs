@@ -40,17 +40,21 @@ namespace AuthenticationAPI.Controllers
             if (existe)
                 return BadRequest("Ya existe un insumo registrado con ese nombre. Si necesitas comprárselo a otro proveedor, regístralo directamente desde el módulo de Compras.");
 
-            var proveedor = await _db.Proveedores.FindAsync(dto.ProveedorId);
-            if (proveedor == null)
-                return BadRequest("El proveedor seleccionado no existe.");
-            if (!proveedor.Activo)
-                return BadRequest("El proveedor seleccionado no está activo.");
+            // Solo validamos el proveedor si se proporcionó uno
+            if (dto.ProveedorId.HasValue)
+            {
+                var proveedor = await _db.Proveedores.FindAsync(dto.ProveedorId.Value);
+                if (proveedor == null)
+                    return BadRequest("El proveedor seleccionado no existe.");
+                if (!proveedor.Activo)
+                    return BadRequest("El proveedor seleccionado no está activo.");
+            }
 
             var materia = new MateriaPrima
             {
                 Nombre = dto.Nombre.Trim(),
                 Descripcion = dto.Descripcion,
-                UnidadMedida = "PZA", // se corrige solo/con la primera Compra, o editable después en Editar
+                UnidadMedida = "PZA",
                 MetodoCosteo = dto.MetodoCosteo,
                 StockMinimo = dto.StockMinimo,
                 Stock = 0,

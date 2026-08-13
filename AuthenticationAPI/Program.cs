@@ -159,7 +159,7 @@ using (var scope = app.Services.CreateScope())
         }
 
         // 2. Crear usuario administrador por defecto
-        string adminEmail = "marinagonutl@gmail.com";
+        string adminEmail = "naomiteran884@gmail.com";
         var adminUser = await userManager.FindByEmailAsync(adminEmail);
         if (adminUser == null)
         {
@@ -176,12 +176,32 @@ using (var scope = app.Services.CreateScope())
                 await userManager.AddToRoleAsync(adminUser, "admin");
             }
         }
+
+        // 3. Crear usuario cliente de prueba por defecto
+        string clienteEmail = "naomiteran755@gmail.com";
+        var clienteUser = userManager.FindByEmailAsync(clienteEmail).Result;
+        if (clienteUser == null)
+        {
+            clienteUser = new ApplicationUser
+            {
+                UserName = clienteEmail,
+                Email = clienteEmail,
+                EmailConfirmed = true
+            };
+
+            var clienteResult = userManager.CreateAsync(clienteUser, "Cliente123*").Result;
+            if (clienteResult.Succeeded)
+            {
+                userManager.AddToRoleAsync(clienteUser, "cliente").Wait();
+            }
+        }
     }
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Ocurrió un error al sembrar los roles y el usuario administrador inicial.");
+        logger.LogError(ex, "Ocurrió un error al sembrar los roles y los usuarios iniciales.");
     }
-}
+} // <--- Cierra el using scope del seeder
+
 
 app.Run();

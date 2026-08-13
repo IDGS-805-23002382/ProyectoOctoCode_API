@@ -7,7 +7,7 @@ namespace AuthenticationAPI.Models
     public class Comentario
     {
         public int Id { get; set; }
-        public int ClienteId { get; set; }
+        public int? ClienteId { get; set; }
         public Cliente? Cliente { get; set; }
 
         public string Asunto { get; set; } = string.Empty;

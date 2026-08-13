@@ -52,7 +52,7 @@ namespace AuthenticationAPI.Controllers
         }
 
         // El administrador da seguimiento: ve todos, filtra por estatus y responde.
-        [Authorize(Roles = "Administrador,admin")]
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ComentarioDto>>> GetAll([FromQuery] string? estatus)
         {
